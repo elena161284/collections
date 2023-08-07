@@ -1,9 +1,11 @@
-package pro.sky.collections;
+package pro.sky.collections.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import pro.sky.collections.Employee;
+import pro.sky.collections.Service.EmployeeService;
 
 import java.util.Collection;
 
