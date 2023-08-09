@@ -32,6 +32,6 @@ public class DepartmentController {
     }
     @GetMapping(path = "/all", params = {"departmentId"})
     public List<Employee> groupDeDept(@RequestParam int deportmentId) {
-        return service.groupDeDept(deportmentId);
+        return service.groupDeDept();
     }
 }
